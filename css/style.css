@@ -1,18 +1,29 @@
-canvas{
-  display: block;
-  border: 2px solid rgba(255,255,255,0.0);
-  background: transparent;
+canvas {
+    display: block;
+    border: 2px solid rgba(255, 255, 255, 0.0);
+    background: transparent;
 }
+
 #cdiv {
-	background: url(../images/background.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
+
 * {
-	-webkit-touch-callout:none;
-	-webkit-user-select:none;
-	-khtml-user-select:none;
-	-moz-user-select:none;
-	-ms-user-select:none;
-	user-select:none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-image: url(../images/bgc.jpg);
+}
+
+.imgs {
+    width: 50px;
+    border-radius: 50%;
 }
